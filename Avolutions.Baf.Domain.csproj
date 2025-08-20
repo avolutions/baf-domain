@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <PackageId>Avolutions.Baf.Domain</PackageId>
+    <Version>0.1.0</Version>
+
+    <Title>Avolutions BAF Domain</Title>
+    <Company>Avolutions</Company>
+    <Authors>Alexander Vogt</Authors>
+    <Description>Reusable domain features for the Avolutions Business Application Framework (BAF).</Description>
+    <RepositoryUrl>https://github.com/avolutions/baf-domain</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>    
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="" />
+    <None Include="..\LICENSE" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
+</Project>
