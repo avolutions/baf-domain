@@ -8,7 +8,6 @@ internal static class CountrySeedData
     [
         new()
         {
-            Key = "DE",
             Translations = new List<CountryTranslation>
             {
                 new() { Language = "de", Value = "Deutschland" },
