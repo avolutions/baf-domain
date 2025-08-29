@@ -2,7 +2,7 @@
 
 namespace Avolutions.Baf.Domain.Countries.Models;
 
-public class CountryTranslation : TranslationEntity<Country>
+public class CountryTranslation : TranslationEntity
 {
     
 }
