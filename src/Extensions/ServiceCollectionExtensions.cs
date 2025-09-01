@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using Avolutions.Baf.Core;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -8,7 +9,10 @@ public static class ServiceCollectionExtensions
 {
     public static IServiceCollection AddBafDomain(this IServiceCollection services, params Assembly[] assemblies)
     {
-        services.AddValidatorsFromAssembly(typeof(AssemblyMarker).Assembly);
+        var assembly = typeof(AssemblyMarker).Assembly;
+        
+        BafAssemblyRegistry.Register(assembly);
+        services.AddValidatorsFromAssembly(assembly);
         
         return services;
     }
