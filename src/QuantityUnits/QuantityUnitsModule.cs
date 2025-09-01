@@ -11,6 +11,7 @@ public class QuantityUnitsModule : IFeatureModule
     public void Register(IServiceCollection services)
     {
         services.AddScoped<QuantityUnitService>();
+        services.AddScoped<IEntityService<QuantityUnit>, QuantityUnitService>();
         services.AddScoped<ITranslatableEntityService<QuantityUnit, QuantityUnitTranslation>, QuantityUnitService>();
     }
 }

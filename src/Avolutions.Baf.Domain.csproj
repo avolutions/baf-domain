@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
     <PackageId>Avolutions.Baf.Domain</PackageId>
-    <Version>0.4.0</Version>
+    <Version>0.5.0</Version>
 
     <Title>Avolutions BAF Domain</Title>
     <Company>Avolutions</Company>
@@ -29,7 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Avolutions.Baf.Core" Version="0.4.0" />
+    <PackageReference Include="Avolutions.Baf.Core" Version="0.5.0" />
     <PackageReference Include="FluentValidation" Version="12.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.8" />
   </ItemGroup>
@@ -38,6 +38,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>QuantityUnitResources.de.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Update="Articles\Resources\ArticleResources.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ArticleResources.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   
   <ItemGroup>
@@ -45,6 +49,11 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>QuantityUnitResources.de.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Articles\Resources\ArticleResources.de.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ArticleResources.de.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>
