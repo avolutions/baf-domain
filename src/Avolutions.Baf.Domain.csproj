@@ -29,7 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Avolutions.Baf.Core" Version="0.5.0" />
+    <PackageReference Include="Avolutions.Baf.Core" Version="0.6.0" />
     <PackageReference Include="FluentValidation" Version="12.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.8" />
   </ItemGroup>
@@ -45,6 +45,10 @@
     <EmbeddedResource Update="Countries\Resources\CountryResources.de.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>CountryResources.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Addresses\Resources\AddressResources.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AddressResources.de.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   
@@ -63,6 +67,11 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>CountryResources.de.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Addresses\Resources\AddressResources.de.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AddressResources.de.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>
