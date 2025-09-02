@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
     <PackageId>Avolutions.Baf.Domain</PackageId>
-    <Version>0.5.0</Version>
+    <Version>0.6.0</Version>
 
     <Title>Avolutions BAF Domain</Title>
     <Company>Avolutions</Company>
@@ -42,6 +42,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ArticleResources.de.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Update="Countries\Resources\CountryResources.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CountryResources.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   
   <ItemGroup>
@@ -54,6 +58,11 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>ArticleResources.de.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Countries\Resources\CountryResources.de.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CountryResources.de.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>
