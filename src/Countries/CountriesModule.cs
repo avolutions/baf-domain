@@ -11,6 +11,7 @@ public class CountriesModule : IFeatureModule
     public void Register(IServiceCollection services)
     {
         services.AddScoped<CountryService>();
+        services.AddScoped<IEntityService<Country>, CountryService>();
         services.AddScoped<ITranslatableEntityService<Country, CountryTranslation>, CountryService>();
     }
 }
