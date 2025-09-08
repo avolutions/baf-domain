@@ -18,34 +18,34 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-    <data name="field.type" xml:space="preserve">
+    <data name="Field.Type" xml:space="preserve">
         <value>Artikeltyp</value>
     </data>
-    <data name="field.article-no" xml:space="preserve">
+    <data name="Field.ArticleNo" xml:space="preserve">
         <value>Artikel-Nr.</value>
     </data>
-    <data name="field.title" xml:space="preserve">
+    <data name="Field.Title" xml:space="preserve">
         <value>Bezeichung</value>
     </data>
-    <data name="field.description" xml:space="preserve">
+    <data name="Field.Description" xml:space="preserve">
         <value>Beschreibung</value>
     </data>
-    <data name="field.price" xml:space="preserve">
+    <data name="Field.Price" xml:space="preserve">
         <value>Preis</value>
     </data>
-    <data name="field.quantity-unit" xml:space="preserve">
+    <data name="Field.QuantityUnit" xml:space="preserve">
         <value>Mengeneinheit</value>
     </data>
-    <data name="article-type.product" xml:space="preserve">
+    <data name="ArticleType.Product" xml:space="preserve">
         <value>Produkt</value>
     </data>
-    <data name="article-type.service" xml:space="preserve">
+    <data name="ArticleType.Service" xml:space="preserve">
         <value>Dienstleistung</value>
     </data>
-    <data name="name.plural" xml:space="preserve">
+    <data name="Name.Plural" xml:space="preserve">
         <value>Artikel</value>
     </data>
-    <data name="name.singular" xml:space="preserve">
+    <data name="Name.Singular" xml:space="preserve">
         <value>Artikel</value>
     </data>
 </root>

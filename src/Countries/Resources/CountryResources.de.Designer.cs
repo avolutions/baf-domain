@@ -62,45 +62,45 @@ namespace Avolutions.Baf.Domain.Countries.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Vorwahl.
         /// </summary>
-        internal static string field_dialing_code {
+        internal static string Field_DialingCode {
             get {
-                return ResourceManager.GetString("field.dialing-code", resourceCulture);
+                return ResourceManager.GetString("Field.DialingCode", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to ISO Code.
         /// </summary>
-        internal static string field_iso_code_2 {
+        internal static string Field_IsoCode2 {
             get {
-                return ResourceManager.GetString("field.iso-code-2", resourceCulture);
+                return ResourceManager.GetString("Field.IsoCode2", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Bezeichnung.
         /// </summary>
-        internal static string field_value {
+        internal static string Field_Value {
             get {
-                return ResourceManager.GetString("field.value", resourceCulture);
+                return ResourceManager.GetString("Field.Value", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Länder.
         /// </summary>
-        internal static string name_plural {
+        internal static string Name_Plural {
             get {
-                return ResourceManager.GetString("name.plural", resourceCulture);
+                return ResourceManager.GetString("Name.Plural", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Land.
         /// </summary>
-        internal static string name_singular {
+        internal static string Name_Singular {
             get {
-                return ResourceManager.GetString("name.singular", resourceCulture);
+                return ResourceManager.GetString("Name.Singular", resourceCulture);
             }
         }
     }

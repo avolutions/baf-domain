@@ -18,25 +18,25 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-    <data name="name.singular" xml:space="preserve">
+    <data name="Name.Singular" xml:space="preserve">
         <value>Adresse</value>
     </data>
-    <data name="name.plural" xml:space="preserve">
+    <data name="Name.Plural" xml:space="preserve">
         <value>Adressen</value>
     </data>
-    <data name="field.additional-line" xml:space="preserve">
+    <data name="Field.AdditionalLine" xml:space="preserve">
         <value>Adresszusatz</value>
     </data>
-    <data name="field.city" xml:space="preserve">
+    <data name="Field.City" xml:space="preserve">
         <value>Ort</value>
     </data>
-    <data name="field.street" xml:space="preserve">
+    <data name="Field.Street" xml:space="preserve">
         <value>Straße</value>
     </data>
-    <data name="field.country" xml:space="preserve">
+    <data name="Field.Country" xml:space="preserve">
         <value>Land</value>
     </data>
-    <data name="field.zip-code" xml:space="preserve">
+    <data name="Field.ZipCode" xml:space="preserve">
         <value>PLZ</value>
     </data>
 </root>

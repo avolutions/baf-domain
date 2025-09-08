@@ -16,10 +16,10 @@ public class CountryValidator : AbstractValidator<Country>
             .Length(2)
             .Matches("^[A-Z]{2}$")
             .UniqueFor(dbContext, x => x.Id)
-            .WithName(localizer["field.iso-code-2"]);
+            .WithName(localizer["Field.IsoCode2"]);
         
         RuleFor(x => x.DialingCode)
             .Matches(@"^\+\d{1,4}$")
-            .WithName(localizer["field.dialing-code"]);
+            .WithName(localizer["Field.DialingCode"]);
     }
 }

@@ -62,36 +62,36 @@ namespace Avolutions.Baf.Domain.QuantityUnits.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Kürzel.
         /// </summary>
-        internal static string field_abbreviation {
+        internal static string Field_Abbreviation {
             get {
-                return ResourceManager.GetString("field.abbreviation", resourceCulture);
+                return ResourceManager.GetString("Field.Abbreviation", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Bezeichnung.
         /// </summary>
-        internal static string field_value {
+        internal static string Field_Value {
             get {
-                return ResourceManager.GetString("field.value", resourceCulture);
+                return ResourceManager.GetString("Field.Value", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Mengeneinheiten.
         /// </summary>
-        internal static string name_plural {
+        internal static string Name_Plural {
             get {
-                return ResourceManager.GetString("name.plural", resourceCulture);
+                return ResourceManager.GetString("Name.Plural", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Mengeneinheit.
         /// </summary>
-        internal static string name_singular {
+        internal static string Name_Singular {
             get {
-                return ResourceManager.GetString("name.singular", resourceCulture);
+                return ResourceManager.GetString("Name.Singular", resourceCulture);
             }
         }
     }
