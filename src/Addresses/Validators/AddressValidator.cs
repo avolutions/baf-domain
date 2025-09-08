@@ -12,10 +12,10 @@ public class AddressValidator : AbstractValidator<Address>
     {
         RuleFor(x => x.City)
             .NotEmpty()
-            .WithName(localizer["field.city"]);
+            .WithName(localizer["Field.City"]);
 
         RuleFor(x => x.CountryId)
             .NotEmpty()
-            .WithName(localizer["field.country"]);
+            .WithName(localizer["Field.Country"]);
     }
 }

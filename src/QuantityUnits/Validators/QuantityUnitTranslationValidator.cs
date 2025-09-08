@@ -11,11 +11,11 @@ public class QuantityUnitTranslationValidator : AbstractValidator<QuantityUnitTr
     {
         RuleFor(x => x.Abbreviation)
             .NotEmpty()
-            .WithName(localizer["field.abbreviation"]);
+            .WithName(localizer["Field.Abbreviation"]);
         
         // TODO: to base validator
         RuleFor(x => x.Value)
             .NotEmpty()
-            .WithName(localizer["field.value"]);
+            .WithName(localizer["Field.Value"]);
     }
 }

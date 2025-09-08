@@ -62,90 +62,90 @@ namespace Avolutions.Baf.Domain.Articles.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Produkt.
         /// </summary>
-        internal static string article_type_product {
+        internal static string ArticleType_Product {
             get {
-                return ResourceManager.GetString("article-type.product", resourceCulture);
+                return ResourceManager.GetString("ArticleType.Product", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Dienstleistung.
         /// </summary>
-        internal static string article_type_service {
+        internal static string ArticleType_Service {
             get {
-                return ResourceManager.GetString("article-type.service", resourceCulture);
+                return ResourceManager.GetString("ArticleType.Service", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Artikel-Nr..
         /// </summary>
-        internal static string field_article_no {
+        internal static string Field_ArticleNo {
             get {
-                return ResourceManager.GetString("field.article-no", resourceCulture);
+                return ResourceManager.GetString("Field.ArticleNo", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Beschreibung.
         /// </summary>
-        internal static string field_description {
+        internal static string Field_Description {
             get {
-                return ResourceManager.GetString("field.description", resourceCulture);
+                return ResourceManager.GetString("Field.Description", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Preis.
         /// </summary>
-        internal static string field_price {
+        internal static string Field_Price {
             get {
-                return ResourceManager.GetString("field.price", resourceCulture);
+                return ResourceManager.GetString("Field.Price", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Mengeneinheit.
         /// </summary>
-        internal static string field_quantity_unit {
+        internal static string Field_QuantityUnit {
             get {
-                return ResourceManager.GetString("field.quantity-unit", resourceCulture);
+                return ResourceManager.GetString("Field.QuantityUnit", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Bezeichung.
         /// </summary>
-        internal static string field_title {
+        internal static string Field_Title {
             get {
-                return ResourceManager.GetString("field.title", resourceCulture);
+                return ResourceManager.GetString("Field.Title", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Artikeltyp.
         /// </summary>
-        internal static string field_type {
+        internal static string Field_Type {
             get {
-                return ResourceManager.GetString("field.type", resourceCulture);
+                return ResourceManager.GetString("Field.Type", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Artikel.
         /// </summary>
-        internal static string name_plural {
+        internal static string Name_Plural {
             get {
-                return ResourceManager.GetString("name.plural", resourceCulture);
+                return ResourceManager.GetString("Name.Plural", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Artikel.
         /// </summary>
-        internal static string name_singular {
+        internal static string Name_Singular {
             get {
-                return ResourceManager.GetString("name.singular", resourceCulture);
+                return ResourceManager.GetString("Name.Singular", resourceCulture);
             }
         }
     }

@@ -12,6 +12,6 @@ public class CountryTranslationValidator : AbstractValidator<CountryTranslation>
         // TODO: to base validator
         RuleFor(x => x.Value)
             .NotEmpty()
-            .WithName(localizer["field.value"]);
+            .WithName(localizer["Field.Value"]);
     }
 }

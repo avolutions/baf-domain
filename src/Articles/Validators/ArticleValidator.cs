@@ -13,16 +13,16 @@ public class ArticleValidator : AbstractValidator<Article>
     {
         RuleFor(x => x.ArticleNo)
             .NotEmpty()
-            .WithName(localizer["field.article-no"])
+            .WithName(localizer["Field.ArticleNo"])
             .UniqueFor(dbContext, x => x.Id)
             .When(x => !string.IsNullOrWhiteSpace(x.ArticleNo));
 
         RuleFor(x => x.Title)
             .NotEmpty()
-            .WithName(localizer["field.title"]);
+            .WithName(localizer["Field.Title"]);
 
         RuleFor(x => x.QuantityUnitId)
             .NotEmpty()
-            .WithName(localizer["field.quantity-unit"]);
+            .WithName(localizer["Field.QuantityUnit"]);
     }
 }

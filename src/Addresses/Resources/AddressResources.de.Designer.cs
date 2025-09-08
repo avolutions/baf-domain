@@ -62,63 +62,63 @@ namespace Avolutions.Baf.Domain.Addresses.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Adresszusatz.
         /// </summary>
-        internal static string field_additional_line {
+        internal static string Field_AdditionalLine {
             get {
-                return ResourceManager.GetString("field.additional-line", resourceCulture);
+                return ResourceManager.GetString("Field.AdditionalLine", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Ort.
         /// </summary>
-        internal static string field_city {
+        internal static string Field_City {
             get {
-                return ResourceManager.GetString("field.city", resourceCulture);
+                return ResourceManager.GetString("Field.City", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Land.
         /// </summary>
-        internal static string field_country {
+        internal static string Field_Country {
             get {
-                return ResourceManager.GetString("field.country", resourceCulture);
+                return ResourceManager.GetString("Field.Country", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Straße.
         /// </summary>
-        internal static string field_street {
+        internal static string Field_Street {
             get {
-                return ResourceManager.GetString("field.street", resourceCulture);
+                return ResourceManager.GetString("Field.Street", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to PLZ.
         /// </summary>
-        internal static string field_zip_code {
+        internal static string Field_ZipCode {
             get {
-                return ResourceManager.GetString("field.zip-code", resourceCulture);
+                return ResourceManager.GetString("Field.ZipCode", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Adressen.
         /// </summary>
-        internal static string name_plural {
+        internal static string Name_Plural {
             get {
-                return ResourceManager.GetString("name.plural", resourceCulture);
+                return ResourceManager.GetString("Name.Plural", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Adresse.
         /// </summary>
-        internal static string name_singular {
+        internal static string Name_Singular {
             get {
-                return ResourceManager.GetString("name.singular", resourceCulture);
+                return ResourceManager.GetString("Name.Singular", resourceCulture);
             }
         }
     }
