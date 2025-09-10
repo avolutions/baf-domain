@@ -87,6 +87,24 @@ namespace Avolutions.Baf.Domain.Addresses.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Breitengrad.
+        /// </summary>
+        internal static string Field_Latitude {
+            get {
+                return ResourceManager.GetString("Field.Latitude", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Längengrad.
+        /// </summary>
+        internal static string Field_Longitude {
+            get {
+                return ResourceManager.GetString("Field.Longitude", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Straße.
         /// </summary>
         internal static string Field_Street {
@@ -119,6 +137,24 @@ namespace Avolutions.Baf.Domain.Addresses.Resources {
         internal static string Name_Singular {
             get {
                 return ResourceManager.GetString("Name.Singular", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Die Koordinaten sind nur gültig, wenn sowohl {0} als auch {1} angegeben werden..
+        /// </summary>
+        internal static string Validation_Coords_BothOrNone {
+            get {
+                return ResourceManager.GetString("Validation.Coords.BothOrNone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} muss zwischen {1} und {2} liegen..
+        /// </summary>
+        internal static string Validation_Coords_Range {
+            get {
+                return ResourceManager.GetString("Validation.Coords.Range", resourceCulture);
             }
         }
     }
