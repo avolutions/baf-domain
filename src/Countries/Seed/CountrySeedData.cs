@@ -8,6 +8,7 @@ internal static class CountrySeedData
     [
         new()
         {
+            IsDefault = true,
             IsoCode2 = "DE",
             DialingCode = "+49",
             Translations = new List<CountryTranslation>

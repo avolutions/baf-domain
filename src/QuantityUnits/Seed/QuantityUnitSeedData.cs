@@ -8,6 +8,7 @@ internal static class QuantityUnitSeedData
     [
         new()
         {
+            IsDefault = true,
             Translations = new List<QuantityUnitTranslation>
             {
                 new() { Language = "de", Value = "Stück", Abbreviation = "Stk"},

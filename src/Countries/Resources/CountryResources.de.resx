@@ -33,4 +33,7 @@
     <data name="Field.DialingCode" xml:space="preserve">
         <value>Vorwahl</value>
     </data>
+    <data name="Field.IsDefault" xml:space="preserve">
+        <value>Standardwert</value>
+    </data>
 </root>
