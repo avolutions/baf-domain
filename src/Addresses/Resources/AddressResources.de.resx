@@ -39,4 +39,16 @@
     <data name="Field.ZipCode" xml:space="preserve">
         <value>PLZ</value>
     </data>
+    <data name="Field.Latitude" xml:space="preserve">
+        <value>Breitengrad</value>
+    </data>
+    <data name="Field.Longitude" xml:space="preserve">
+        <value>Längengrad</value>
+    </data>
+    <data name="Validation.Coords.Range" xml:space="preserve">
+        <value>{0} muss zwischen {1} und {2} liegen.</value>
+    </data>
+    <data name="Validation.Coords.BothOrNone" xml:space="preserve">
+        <value>Die Koordinaten sind nur gültig, wenn sowohl {0} als auch {1} angegeben werden.</value>
+    </data>
 </root>
