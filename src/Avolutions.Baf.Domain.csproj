@@ -50,6 +50,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>AddressResources.de.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Update="Salutations\Resources\SalutationResources.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SalutationResources.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   
   <ItemGroup>
@@ -72,6 +76,11 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>AddressResources.de.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Salutations\Resources\SalutationResources.de.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SalutationResources.de.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>
