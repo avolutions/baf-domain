@@ -69,6 +69,15 @@ namespace Avolutions.Baf.Domain.Countries.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Standardwert.
+        /// </summary>
+        internal static string Field_IsDefault {
+            get {
+                return ResourceManager.GetString("Field.IsDefault", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to ISO Code.
         /// </summary>
         internal static string Field_IsoCode2 {

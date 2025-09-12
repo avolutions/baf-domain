@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Avolutions.Baf.Domain.QuantityUnits.Resources {
+namespace Avolutions.Baf.Domain.Salutations.Resources {
     using System;
     
     
@@ -21,14 +21,14 @@ namespace Avolutions.Baf.Domain.QuantityUnits.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class QuantityUnitResources_de {
+    internal class SalutationResources_de {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal QuantityUnitResources_de() {
+        internal SalutationResources_de() {
         }
         
         /// <summary>
@@ -38,7 +38,7 @@ namespace Avolutions.Baf.Domain.QuantityUnits.Resources {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Avolutions.Baf.Domain.QuantityUnits.Resources.QuantityUnitResources.de", typeof(QuantityUnitResources_de).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Avolutions.Baf.Domain.Salutations.Resources.SalutationResources.de", typeof(SalutationResources_de).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -60,20 +60,20 @@ namespace Avolutions.Baf.Domain.QuantityUnits.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Kürzel.
-        /// </summary>
-        internal static string Field_Abbreviation {
-            get {
-                return ResourceManager.GetString("Field.Abbreviation", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Standardwert.
         /// </summary>
         internal static string Field_IsDefault {
             get {
                 return ResourceManager.GetString("Field.IsDefault", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Briefanrede.
+        /// </summary>
+        internal static string Field_LetterSalutation {
+            get {
+                return ResourceManager.GetString("Field.LetterSalutation", resourceCulture);
             }
         }
         
@@ -87,7 +87,7 @@ namespace Avolutions.Baf.Domain.QuantityUnits.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mengeneinheiten.
+        ///   Looks up a localized string similar to Anreden.
         /// </summary>
         internal static string Name_Plural {
             get {
@@ -96,7 +96,7 @@ namespace Avolutions.Baf.Domain.QuantityUnits.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mengeneinheit.
+        ///   Looks up a localized string similar to Anrede.
         /// </summary>
         internal static string Name_Singular {
             get {

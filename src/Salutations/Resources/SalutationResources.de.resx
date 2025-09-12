@@ -18,22 +18,19 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+    <data name="Field.IsDefault" xml:space="preserve">
+        <value>Standardwert</value>
+    </data>
     <data name="Field.Value" xml:space="preserve">
         <value>Bezeichnung</value>
     </data>
     <data name="Name.Singular" xml:space="preserve">
-        <value>Land</value>
+        <value>Anrede</value>
     </data>
     <data name="Name.Plural" xml:space="preserve">
-        <value>Länder</value>
+        <value>Anreden</value>
     </data>
-    <data name="Field.IsoCode2" xml:space="preserve">
-        <value>ISO Code</value>
-    </data>
-    <data name="Field.DialingCode" xml:space="preserve">
-        <value>Vorwahl</value>
-    </data>
-    <data name="Field.IsDefault" xml:space="preserve">
-        <value>Standardwert</value>
+    <data name="Field.LetterSalutation" xml:space="preserve">
+        <value>Briefanrede</value>
     </data>
 </root>

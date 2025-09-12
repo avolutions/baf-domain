@@ -30,4 +30,7 @@
     <data name="Name.Plural" xml:space="preserve">
         <value>Mengeneinheiten</value>
     </data>
+    <data name="Field.IsDefault" xml:space="preserve">
+        <value>Standardwert</value>
+    </data>
 </root>

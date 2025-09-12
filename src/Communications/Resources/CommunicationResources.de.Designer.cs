@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Avolutions.Baf.Domain.QuantityUnits.Resources {
+namespace Avolutions.Baf.Domain.Communications.Resources {
     using System;
     
     
@@ -21,14 +21,14 @@ namespace Avolutions.Baf.Domain.QuantityUnits.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class QuantityUnitResources_de {
+    internal class CommunicationResources_de {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal QuantityUnitResources_de() {
+        internal CommunicationResources_de() {
         }
         
         /// <summary>
@@ -38,7 +38,7 @@ namespace Avolutions.Baf.Domain.QuantityUnits.Resources {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Avolutions.Baf.Domain.QuantityUnits.Resources.QuantityUnitResources.de", typeof(QuantityUnitResources_de).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Avolutions.Baf.Domain.Communications.Resources.CommunicationResources.de", typeof(CommunicationResources_de).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -60,34 +60,61 @@ namespace Avolutions.Baf.Domain.QuantityUnits.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Kürzel.
+        ///   Looks up a localized string similar to E-Mail.
         /// </summary>
-        internal static string Field_Abbreviation {
+        internal static string Field_Email {
             get {
-                return ResourceManager.GetString("Field.Abbreviation", resourceCulture);
+                return ResourceManager.GetString("Field.Email", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Standardwert.
+        ///   Looks up a localized string similar to Fax.
         /// </summary>
-        internal static string Field_IsDefault {
+        internal static string Field_Fax {
             get {
-                return ResourceManager.GetString("Field.IsDefault", resourceCulture);
+                return ResourceManager.GetString("Field.Fax", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bezeichnung.
+        ///   Looks up a localized string similar to Telefon.
         /// </summary>
-        internal static string Field_Value {
+        internal static string Field_Phone {
             get {
-                return ResourceManager.GetString("Field.Value", resourceCulture);
+                return ResourceManager.GetString("Field.Phone", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mengeneinheiten.
+        ///   Looks up a localized string similar to Telefon (alternativ).
+        /// </summary>
+        internal static string Field_PhoneAlternative {
+            get {
+                return ResourceManager.GetString("Field.PhoneAlternative", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mobiltelefon.
+        /// </summary>
+        internal static string Field_PhoneMobile {
+            get {
+                return ResourceManager.GetString("Field.PhoneMobile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Webseite.
+        /// </summary>
+        internal static string Field_Website {
+            get {
+                return ResourceManager.GetString("Field.Website", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Kontaktdaten.
         /// </summary>
         internal static string Name_Plural {
             get {
@@ -96,7 +123,7 @@ namespace Avolutions.Baf.Domain.QuantityUnits.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mengeneinheit.
+        ///   Looks up a localized string similar to Kontaktdaten.
         /// </summary>
         internal static string Name_Singular {
             get {

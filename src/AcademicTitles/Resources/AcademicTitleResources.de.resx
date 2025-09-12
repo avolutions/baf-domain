@@ -21,19 +21,13 @@
     <data name="Field.Value" xml:space="preserve">
         <value>Bezeichnung</value>
     </data>
-    <data name="Name.Singular" xml:space="preserve">
-        <value>Land</value>
-    </data>
-    <data name="Name.Plural" xml:space="preserve">
-        <value>Länder</value>
-    </data>
-    <data name="Field.IsoCode2" xml:space="preserve">
-        <value>ISO Code</value>
-    </data>
-    <data name="Field.DialingCode" xml:space="preserve">
-        <value>Vorwahl</value>
-    </data>
     <data name="Field.IsDefault" xml:space="preserve">
         <value>Standardwert</value>
+    </data>
+    <data name="Name.Singular" xml:space="preserve">
+        <value>Akademischer Titel</value>
+    </data>
+    <data name="Name.Plural" xml:space="preserve">
+        <value>Akademische Titel</value>
     </data>
 </root>
