@@ -12,4 +12,5 @@ public class Article : EntityBase
     public decimal Price { get; set; }
     public Guid QuantityUnitId { get; set; }
     public QuantityUnit QuantityUnit { get; set; } = null!;
+    public override string GetName() => $"{ArticleNo} - {Title}";
 }
