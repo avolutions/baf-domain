@@ -54,6 +54,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>SalutationResources.de.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Update="AcademicTitles\Resources\AcademicTitleResources.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AcademicTitleResources.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   
   <ItemGroup>
@@ -81,6 +85,11 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>SalutationResources.de.resx</DependentUpon>
+    </Compile>
+    <Compile Update="AcademicTitles\Resources\AcademicTitleResources.de.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AcademicTitleResources.de.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>
