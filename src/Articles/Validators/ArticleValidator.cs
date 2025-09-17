@@ -24,5 +24,11 @@ public class ArticleValidator : AbstractValidator<Article>
         RuleFor(x => x.QuantityUnitId)
             .NotEmpty()
             .WithName(localizer["Field.QuantityUnit"]);
+        
+        RuleFor(x => x.TaxRate)
+            .NotEmpty()
+            .WithName(localizer["Field.TaxRate"])
+            .InclusiveBetween(0, 100)
+            .WithMessage(localizer["Validation.TaxRateRange"]);
     }
 }

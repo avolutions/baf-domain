@@ -96,7 +96,16 @@ namespace Avolutions.Baf.Domain.Articles.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Preis.
+        ///   Looks up a localized string similar to Preis (Brutto).
+        /// </summary>
+        internal static string Field_GrossPrice {
+            get {
+                return ResourceManager.GetString("Field.GrossPrice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Preis (Netto).
         /// </summary>
         internal static string Field_Price {
             get {
@@ -110,6 +119,15 @@ namespace Avolutions.Baf.Domain.Articles.Resources {
         internal static string Field_QuantityUnit {
             get {
                 return ResourceManager.GetString("Field.QuantityUnit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Steuer.
+        /// </summary>
+        internal static string Field_TaxRate {
+            get {
+                return ResourceManager.GetString("Field.TaxRate", resourceCulture);
             }
         }
         
@@ -146,6 +164,15 @@ namespace Avolutions.Baf.Domain.Articles.Resources {
         internal static string Name_Singular {
             get {
                 return ResourceManager.GetString("Name.Singular", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Steuer muss zwischen 0% und 100% liegen..
+        /// </summary>
+        internal static string Validation_TaxRateRange {
+            get {
+                return ResourceManager.GetString("Validation.TaxRateRange", resourceCulture);
             }
         }
     }
