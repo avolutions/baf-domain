@@ -31,7 +31,7 @@
         <value>Beschreibung</value>
     </data>
     <data name="Field.Price" xml:space="preserve">
-        <value>Preis</value>
+        <value>Preis (Netto)</value>
     </data>
     <data name="Field.QuantityUnit" xml:space="preserve">
         <value>Mengeneinheit</value>
@@ -47,5 +47,14 @@
     </data>
     <data name="Name.Singular" xml:space="preserve">
         <value>Artikel</value>
+    </data>
+    <data name="Field.TaxRate" xml:space="preserve">
+        <value>Steuer</value>
+    </data>
+    <data name="Validation.TaxRateRange" xml:space="preserve">
+        <value>Steuer muss zwischen 0% und 100% liegen.</value>
+    </data>
+    <data name="Field.GrossPrice" xml:space="preserve">
+        <value>Preis (Brutto)</value>
     </data>
 </root>
