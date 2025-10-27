@@ -66,6 +66,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>FileResources.de.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Update="BankAccounts\Resources\BankAccountResources.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>BankAccountResources.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   
   <ItemGroup>
@@ -108,6 +112,11 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>FileResources.de.resx</DependentUpon>
+    </Compile>
+    <Compile Update="BankAccounts\Resources\BankAccountResources.de.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BankAccountResources.de.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>
