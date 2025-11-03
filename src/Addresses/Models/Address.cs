@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations.Schema;
 using Avolutions.Baf.Core.Entity.Models;
 using Avolutions.Baf.Domain.Countries.Models;
 
@@ -18,7 +19,7 @@ public class Address : EntityBase
     public override string GetName()
     {
         var street = Street?.Trim();
-        var location = $"{ZipCode} {City}".Trim();
+        var location = CityWithZipCode;
 
         return string.IsNullOrWhiteSpace(street)
             ? location
@@ -26,6 +27,9 @@ public class Address : EntityBase
                 ? street
                 : $"{street}, {location}";
     }
+    
+    [NotMapped]
+    public string CityWithZipCode => $"{ZipCode} {City}".Trim();
     
     public string GetFullAddress()
     {
