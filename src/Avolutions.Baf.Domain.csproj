@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
     <PackageId>Avolutions.Baf.Domain</PackageId>
-    <Version>0.15.0</Version>
+    <Version>0.16.0</Version>
 
     <Title>Avolutions BAF Domain</Title>
     <Company>Avolutions</Company>
@@ -29,7 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Avolutions.Baf.Core" Version="0.15.0" />
+    <PackageReference Include="Avolutions.Baf.Core" Version="0.16.0" />
     <PackageReference Include="FluentValidation" Version="12.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.8" />
   </ItemGroup>
@@ -61,6 +61,14 @@
     <EmbeddedResource Update="AcademicTitles\Resources\AcademicTitleResources.de.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>AcademicTitleResources.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Files\Resources\FileResources.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FileResources.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="BankAccounts\Resources\BankAccountResources.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>BankAccountResources.de.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   
@@ -99,6 +107,16 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>AcademicTitleResources.de.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Files\Resources\FileResources.de.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>FileResources.de.resx</DependentUpon>
+    </Compile>
+    <Compile Update="BankAccounts\Resources\BankAccountResources.de.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BankAccountResources.de.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>
