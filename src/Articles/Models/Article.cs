@@ -13,8 +13,6 @@ public class Article : EntityBase
     public string Title { get; set; } = string.Empty;
     public string? Description { get; set; }
     public decimal Price { get; set; }
-    [Range(0, 100)]
-    [Precision(5, 2)]
     public decimal TaxRate { get; set; }
     public Guid QuantityUnitId { get; set; }
     public QuantityUnit QuantityUnit { get; set; } = null!;

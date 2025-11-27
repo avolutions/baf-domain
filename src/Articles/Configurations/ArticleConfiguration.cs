@@ -16,5 +16,11 @@ public class ArticleConfiguration : IEntityTypeConfiguration<Article>
         
         builder.Property(a => a.Type)
             .HasConversion<string>();
+        
+        builder.Property(e => e.Price)
+            .HasPrecision(18, 2);
+            
+        builder.Property(e => e.TaxRate)
+            .HasPrecision(5, 2);
     }
 }
