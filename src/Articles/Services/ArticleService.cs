@@ -39,7 +39,7 @@ public class ArticleService : EntityService<Article>
         return await base.CreateAsync(article, cancellationToken);
     }
     
-    public async Task<Article> GetByArticleNo(string articleNo, CancellationToken cancellationToken = default)
+    public async Task<Article> GetByArticleNoAsync(string articleNo, CancellationToken cancellationToken = default)
     {
         var article = await DbSet.AsNoTracking().SingleOrDefaultAsync(l => l.ArticleNo == articleNo, cancellationToken);
         if (article == null)
