@@ -1,7 +1,7 @@
-﻿using Avolutions.Baf.Core.Entity.Models;
+﻿using Avolutions.Baf.Core.Lookups.Models;
 
 namespace Avolutions.Baf.Domain.AcademicTitles.Models;
 
-public class AcademicTitleTranslation : TranslationEntity
+public class AcademicTitleTranslation : LookupTranslation
 {
 }
