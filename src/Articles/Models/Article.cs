@@ -1,8 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 using Avolutions.Baf.Core.Entity.Models;
 using Avolutions.Baf.Domain.QuantityUnits.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace Avolutions.Baf.Domain.Articles.Models;
 
