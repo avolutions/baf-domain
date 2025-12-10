@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
-using Avolutions.Baf.Core.Entity.Extensions;
-using Avolutions.Baf.Core.Entity.Models;
+using Avolutions.Baf.Core.Lookups.Extensions;
+using Avolutions.Baf.Core.Lookups.Models;
 
 namespace Avolutions.Baf.Domain.Salutations.Models;
 
-public class Salutation : TranslatableEntity<SalutationTranslation>
+public class Salutation : Lookup<SalutationTranslation>
 {
     public Salutation() : base() { }
     public Salutation(bool createMissingTranslations) : base(createMissingTranslations) { }

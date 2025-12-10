@@ -8,4 +8,13 @@ public static class PersonExtensions
     {
         return $"{person.AcademicTitle?.Value} {person.FirstName} {person.LastName}".Trim();
     }
+    
+    public static string LetterSalutation(this IPerson person)
+    {
+        var salutation = person.Salutation?.LetterSalutation;
+        var title = person.AcademicTitle?.Value;
+        var lastName = person.LastName;
+
+        return !string.IsNullOrWhiteSpace(title) ? $"{salutation} {title} {lastName}".Trim() : $"{salutation} {lastName}".Trim();
+    }
 }

@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
-using Avolutions.Baf.Core.Entity.Extensions;
-using Avolutions.Baf.Core.Entity.Models;
+using Avolutions.Baf.Core.Lookups.Extensions;
+using Avolutions.Baf.Core.Lookups.Models;
 
 namespace Avolutions.Baf.Domain.QuantityUnits.Models;
 
-public class QuantityUnit : TranslatableEntity<QuantityUnitTranslation>
+public class QuantityUnit : Lookup<QuantityUnitTranslation>
 {
     public QuantityUnit() : base() { }
 
