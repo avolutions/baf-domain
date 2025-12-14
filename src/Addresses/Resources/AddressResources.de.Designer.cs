@@ -78,6 +78,15 @@ namespace Avolutions.Baf.Domain.Addresses.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Ort mit PLZ.
+        /// </summary>
+        internal static string Field_CityWithZipCode {
+            get {
+                return ResourceManager.GetString("Field.CityWithZipCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Land.
         /// </summary>
         internal static string Field_Country {

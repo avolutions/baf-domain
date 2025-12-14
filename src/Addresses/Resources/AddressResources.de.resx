@@ -51,4 +51,7 @@
     <data name="Validation.Coords.BothOrNone" xml:space="preserve">
         <value>Die Koordinaten sind nur gültig, wenn sowohl {0} als auch {1} angegeben werden.</value>
     </data>
+    <data name="Field.CityWithZipCode" xml:space="preserve">
+        <value>Ort mit PLZ</value>
+    </data>
 </root>
