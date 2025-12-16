@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using Avolutions.Baf.Core.Entity.Models;
+using Avolutions.Baf.Core.Lookups.Attributes;
 using Avolutions.Baf.Domain.Countries.Models;
 
 namespace Avolutions.Baf.Domain.Addresses.Models;
@@ -14,6 +15,7 @@ public class Address : EntityBase
     public decimal? Longitude { get; set; }
     
     public Guid CountryId { get; set; }
+    [Lookup]
     public Country Country { get; set; } = null!;
     
     public override string GetName()

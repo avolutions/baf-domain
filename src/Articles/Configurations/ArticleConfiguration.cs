@@ -11,9 +11,6 @@ public class ArticleConfiguration : IEntityTypeConfiguration<Article>
         builder.HasIndex(a => a.ArticleNo)
             .IsUnique();
         
-        builder.Navigation(a => a.QuantityUnit)
-            .AutoInclude();
-        
         builder.Property(a => a.Type)
             .HasConversion<string>();
         
