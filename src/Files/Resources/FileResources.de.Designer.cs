@@ -60,6 +60,15 @@ namespace Avolutions.Baf.Domain.Files.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Medientyp.
+        /// </summary>
+        internal static string Field_ContentType {
+            get {
+                return ResourceManager.GetString("Field.ContentType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Dateiendung.
         /// </summary>
         internal static string Field_FileExtension {

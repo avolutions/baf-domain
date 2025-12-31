@@ -27,4 +27,7 @@
     <data name="Field.Size" xml:space="preserve">
         <value>Dateigröße</value>
     </data>
+    <data name="Field.ContentType" xml:space="preserve">
+        <value>Medientyp</value>
+    </data>
 </root>
