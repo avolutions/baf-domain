@@ -60,6 +60,15 @@ namespace Avolutions.Baf.Domain.Articles.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Kosten.
+        /// </summary>
+        internal static string ArticleType_Cost {
+            get {
+                return ResourceManager.GetString("ArticleType.Cost", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Produkt.
         /// </summary>
         internal static string ArticleType_Product {
