@@ -1,4 +1,4 @@
-﻿using Avolutions.Baf.Core;
+﻿using Avolutions.Baf.Core.Persistence;
 using Avolutions.Baf.Core.Validation.Abstractions;
 using Avolutions.Baf.Core.Validation.Extensions;
 using Avolutions.Baf.Domain.Articles.Models;
