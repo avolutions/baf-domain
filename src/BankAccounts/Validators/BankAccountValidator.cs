@@ -1,4 +1,4 @@
-﻿using Avolutions.Baf.Core;
+﻿using Avolutions.Baf.Core.Persistence;
 using Avolutions.Baf.Domain.BankAccounts.Models;
 using Avolutions.Baf.Domain.BankAccounts.Resources;
 using FluentValidation;

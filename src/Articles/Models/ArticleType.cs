@@ -2,6 +2,7 @@
 
 public enum ArticleType
 {
+    Cost,
     Product,
     Service
 }

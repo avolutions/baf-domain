@@ -1,4 +1,4 @@
-﻿using Avolutions.Baf.Core;
+﻿using Avolutions.Baf.Core.Persistence;
 using Avolutions.Baf.Domain.Addresses.Models;
 using Avolutions.Baf.Domain.Addresses.Resources;
 using FluentValidation;

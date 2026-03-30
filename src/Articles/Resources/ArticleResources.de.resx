@@ -57,4 +57,7 @@
     <data name="Field.GrossPrice" xml:space="preserve">
         <value>Preis (Brutto)</value>
     </data>
+    <data name="ArticleType.Cost" xml:space="preserve">
+        <value>Kosten</value>
+    </data>
 </root>
