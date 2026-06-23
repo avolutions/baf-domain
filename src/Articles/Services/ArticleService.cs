@@ -1,5 +1,6 @@
 ﻿using Avolutions.Baf.Core.Entity.Services;
 using Avolutions.Baf.Core.NumberSequences.Services;
+using Avolutions.Baf.Core.Persistence;
 using Avolutions.Baf.Domain.Articles.Models;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
@@ -12,8 +13,9 @@ public class ArticleService : EntityService<Article>
     
     public ArticleService(
         DbContext context,
+        IDbContextFactory<BafDbContext> contextFactory,
         IValidator<Article>? validator,
-        INumberSequenceService<ArticleNoSequence> numberSequence) : base(context, validator)
+        INumberSequenceService<ArticleNoSequence> numberSequence) : base(context, contextFactory, validator)
     {
         _numberSequence = numberSequence;
     }
