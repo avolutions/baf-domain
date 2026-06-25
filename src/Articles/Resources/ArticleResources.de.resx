@@ -60,4 +60,13 @@
     <data name="ArticleType.Cost" xml:space="preserve">
         <value>Kosten</value>
     </data>
+    <data name="Field.Percentage" xml:space="preserve">
+        <value>Prozentsatz</value>
+    </data>
+    <data name="Validation.PricePercentage" xml:space="preserve">
+        <value>Es darf nicht gleichzeitig ein Preis und ein Prozentsatz angegeben werden.</value>
+    </data>
+    <data name="Validation.PercentageOnlyForCosts" xml:space="preserve">
+        <value>Ein Prozentsatz ist nur bei Kosten zulässig.</value>
+    </data>
 </root>

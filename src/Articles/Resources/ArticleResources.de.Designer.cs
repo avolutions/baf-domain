@@ -114,6 +114,15 @@ namespace Avolutions.Baf.Domain.Articles.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Prozentsatz.
+        /// </summary>
+        internal static string Field_Percentage {
+            get {
+                return ResourceManager.GetString("Field.Percentage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Preis (Netto).
         /// </summary>
         internal static string Field_Price {
@@ -173,6 +182,24 @@ namespace Avolutions.Baf.Domain.Articles.Resources {
         internal static string Name_Singular {
             get {
                 return ResourceManager.GetString("Name.Singular", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ein Prozentsatz ist nur bei Kosten zulässig..
+        /// </summary>
+        internal static string Validation_PercentageOnlyForCosts {
+            get {
+                return ResourceManager.GetString("Validation.PercentageOnlyForCosts", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Es darf nicht gleichzeitig ein Preis und ein Prozentsatz angegeben werden..
+        /// </summary>
+        internal static string Validation_PricePercentage {
+            get {
+                return ResourceManager.GetString("Validation.PricePercentage", resourceCulture);
             }
         }
         

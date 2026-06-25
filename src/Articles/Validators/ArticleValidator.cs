@@ -25,6 +25,19 @@ public class ArticleValidator : AbstractValidator<Article>
             .NotEmpty()
             .WithName(localizer["Field.QuantityUnit"]);
         
+        RuleFor(a => a.Price)
+            .Must((a, _) => !(a.Percentage.HasValue && a.Price != 0))
+            .WithMessage(localizer["Validation.PricePercentage"]);
+
+        RuleFor(a => a.Percentage)
+            .Must((a, _) => !(a.Percentage.HasValue && a.Price != 0))
+            .WithMessage(localizer["Validation.PricePercentage"]);
+        
+        RuleFor(a => a.Percentage)
+            .Null()
+            .When(a => a.Type != ArticleType.Cost)
+            .WithMessage(localizer["Validation.PercentageOnlyForCosts"]);
+        
         RuleFor(x => x.TaxRate)
             .NotEmpty()
             .WithName(localizer["Field.TaxRate"])

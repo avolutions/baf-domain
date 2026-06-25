@@ -15,6 +15,7 @@ public class Article : EntityBase, INavigable
     public string Title { get; set; } = string.Empty;
     public string? Description { get; set; }
     public decimal Price { get; set; }
+    public decimal? Percentage { get; set; }
     public decimal TaxRate { get; set; }
     public Guid QuantityUnitId { get; set; }
     [Lookup]
