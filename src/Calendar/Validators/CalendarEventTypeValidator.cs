@@ -7,7 +7,7 @@ namespace Avolutions.Baf.Domain.Calendar.Validators;
 
 public class CalendarEventTypeValidator : AbstractValidator<CalendarEventType>
 {
-    public CalendarEventTypeValidator(IStringLocalizer<CalendarResources> localizer)
+    public CalendarEventTypeValidator(IStringLocalizer<CalendarEventTypeResources> localizer)
     {
         RuleFor(x => x.Color)
             .NotEmpty()

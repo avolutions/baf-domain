@@ -70,7 +70,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>BankAccountResources.de.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="Calendar\Resources\CalendarResources.de.resx">
+    <EmbeddedResource Update="Calendar\Resources\CalendarEventTypeResources.de.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>CalendarResources.de.Designer.cs</LastGenOutput>
     </EmbeddedResource>
@@ -122,10 +122,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>BankAccountResources.de.resx</DependentUpon>
     </Compile>
-    <Compile Update="Calendar\Resources\CalendarResources.de.Designer.cs">
+    <Compile Update="Calendar\Resources\CalendarEventTypeResources.de.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>CalendarResources.de.resx</DependentUpon>
+      <DependentUpon>CalendarEventTypeResources.de.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>

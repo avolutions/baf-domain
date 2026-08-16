@@ -7,7 +7,7 @@ namespace Avolutions.Baf.Domain.Calendar.Validators;
 
 public class CalendarEventTypeTranslationValidator : AbstractValidator<CalendarEventTypeTranslation>
 {
-    public CalendarEventTypeTranslationValidator(IStringLocalizer<CalendarResources> localizer)
+    public CalendarEventTypeTranslationValidator(IStringLocalizer<CalendarEventTypeResources> localizer)
     {
         // TODO: to base validator
         RuleFor(x => x.Value)
