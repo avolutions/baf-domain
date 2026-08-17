@@ -18,22 +18,25 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-    <data name="Name.Singular" xml:space="preserve">
-        <value>Terminart</value>
-    </data>
-    <data name="Name.Plural" xml:space="preserve">
-        <value>Terminarten</value>
-    </data>
     <data name="Field.Color" xml:space="preserve">
         <value>Farbe</value>
     </data>
+    <data name="Field.IsDefault" xml:space="preserve">
+        <value>Standardwert</value>
+    </data>
     <data name="Field.IsSystem" xml:space="preserve">
-        <value>Systemtyp</value>
+        <value>Systemvorgabe</value>
+    </data>
+    <data name="Field.IsSystem.Description" xml:space="preserve">
+        <value>Systemvorgabe - kann nicht gelöscht werden.</value>
     </data>
     <data name="Field.Value" xml:space="preserve">
         <value>Bezeichnung</value>
     </data>
-    <data name="Field.IsDefault" xml:space="preserve">
-        <value>Standardwert</value>
+    <data name="Name.Plural" xml:space="preserve">
+        <value>Terminarten</value>
+    </data>
+    <data name="Name.Singular" xml:space="preserve">
+        <value>Terminart</value>
     </data>
 </root>

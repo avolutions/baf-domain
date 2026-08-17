@@ -78,11 +78,20 @@ namespace Avolutions.Baf.Domain.Calendar.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Systemtyp.
+        ///   Looks up a localized string similar to Systemvorgabe.
         /// </summary>
         internal static string Field_IsSystem {
             get {
                 return ResourceManager.GetString("Field.IsSystem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Systemvorgabe - kann nicht gelöscht werden..
+        /// </summary>
+        internal static string Field_IsSystem_Description {
+            get {
+                return ResourceManager.GetString("Field.IsSystem.Description", resourceCulture);
             }
         }
         

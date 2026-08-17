@@ -18,20 +18,11 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-    <data name="Name.Singular" xml:space="preserve">
-        <value>Termin</value>
-    </data>
-    <data name="Name.Plural" xml:space="preserve">
-        <value>Termine</value>
-    </data>
-    <data name="Field.Title" xml:space="preserve">
-        <value>Titel</value>
+    <data name="Field.CalendarEventType" xml:space="preserve">
+        <value>Terminart</value>
     </data>
     <data name="Field.Description" xml:space="preserve">
         <value>Beschreibung</value>
-    </data>
-    <data name="Field.Start" xml:space="preserve">
-        <value>Start</value>
     </data>
     <data name="Field.End" xml:space="preserve">
         <value>Ende</value>
@@ -39,17 +30,20 @@
     <data name="Field.IsAllDay" xml:space="preserve">
         <value>Ganztägig</value>
     </data>
+    <data name="Field.Start" xml:space="preserve">
+        <value>Start</value>
+    </data>
+    <data name="Field.Title" xml:space="preserve">
+        <value>Titel</value>
+    </data>
     <data name="Field.Visibility" xml:space="preserve">
         <value>Sichtbarkeit</value>
     </data>
-    <data name="Field.CalendarEventType" xml:space="preserve">
-        <value>Terminart</value>
+    <data name="Name.Plural" xml:space="preserve">
+        <value>Termine</value>
     </data>
-    <data name="Validation.AllDayStartMustBeMidnight" xml:space="preserve">
-        <value>Bei ganztägigen Terminen muss der Beginn auf Mitternacht liegen.</value>
-    </data>
-    <data name="Validation.AllDayEndMustBeMidnight" xml:space="preserve">
-        <value>Bei ganztägigen Terminen muss das Ende auf Mitternacht liegen.</value>
+    <data name="Name.Singular" xml:space="preserve">
+        <value>Termin</value>
     </data>
     <data name="Visibility.Private" xml:space="preserve">
         <value>Privat</value>

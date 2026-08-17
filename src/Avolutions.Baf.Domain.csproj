@@ -72,7 +72,7 @@
     </EmbeddedResource>
     <EmbeddedResource Update="Calendar\Resources\CalendarEventTypeResources.de.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>CalendarResources.de.Designer.cs</LastGenOutput>
+      <LastGenOutput>CalendarEventTypeResources.de.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Calendar\Resources\CalendarResources.de.resx">
       <Generator>ResXFileCodeGenerator</Generator>

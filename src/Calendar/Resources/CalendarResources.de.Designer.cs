@@ -141,24 +141,6 @@ namespace Avolutions.Baf.Domain.Calendar.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bei ganztägigen Terminen muss das Ende auf Mitternacht liegen..
-        /// </summary>
-        internal static string Validation_AllDayEndMustBeMidnight {
-            get {
-                return ResourceManager.GetString("Validation.AllDayEndMustBeMidnight", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Bei ganztägigen Terminen muss der Beginn auf Mitternacht liegen..
-        /// </summary>
-        internal static string Validation_AllDayStartMustBeMidnight {
-            get {
-                return ResourceManager.GetString("Validation.AllDayStartMustBeMidnight", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Privat.
         /// </summary>
         internal static string Visibility_Private {
