@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
     <PackageId>Avolutions.Baf.Domain</PackageId>
-    <Version>0.22.0</Version>
+    <Version>0.23.0</Version>
 
     <Title>Avolutions BAF Domain</Title>
     <Company>Avolutions</Company>
@@ -70,6 +70,14 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>BankAccountResources.de.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Update="Calendar\Resources\CalendarEventTypeResources.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CalendarEventTypeResources.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Calendar\Resources\CalendarResources.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CalendarResources.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   
   <ItemGroup>
@@ -117,6 +125,16 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>BankAccountResources.de.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Calendar\Resources\CalendarEventTypeResources.de.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CalendarEventTypeResources.de.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Calendar\Resources\CalendarResources.de.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CalendarResources.de.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>
