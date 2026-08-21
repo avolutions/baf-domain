@@ -1,5 +1,4 @@
-﻿using Avolutions.Baf.Domain.Articles.Models;
-using Avolutions.Baf.Domain.Calendar.Models;
+﻿using Avolutions.Baf.Domain.Calendar.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
