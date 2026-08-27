@@ -15,9 +15,9 @@ public class HasAddressConfiguration : IModelConfiguration
             var builder = modelBuilder.Entity(entityType.ClrType);
           
             builder.HasOne(typeof(Address), nameof(IHasAddress.Address))
-                .WithMany()
-                .HasForeignKey(nameof(IHasAddress.AddressId))
-                .OnDelete(DeleteBehavior.Cascade);
+                .WithOne()
+                .HasForeignKey(entityType.ClrType, nameof(IHasAddress.AddressId))
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }
