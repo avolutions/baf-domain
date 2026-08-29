@@ -69,15 +69,6 @@ namespace Avolutions.Baf.Domain.Calendar.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Standardwert.
-        /// </summary>
-        internal static string Field_IsDefault {
-            get {
-                return ResourceManager.GetString("Field.IsDefault", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Systemvorgabe.
         /// </summary>
         internal static string Field_IsSystem {
@@ -92,15 +83,6 @@ namespace Avolutions.Baf.Domain.Calendar.Resources {
         internal static string Field_IsSystem_Description {
             get {
                 return ResourceManager.GetString("Field.IsSystem.Description", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Bezeichnung.
-        /// </summary>
-        internal static string Field_Value {
-            get {
-                return ResourceManager.GetString("Field.Value", resourceCulture);
             }
         }
         

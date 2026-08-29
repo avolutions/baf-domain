@@ -18,9 +18,6 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-    <data name="Field.Value" xml:space="preserve">
-        <value>Bezeichnung</value>
-    </data>
     <data name="Field.Abbreviation" xml:space="preserve">
         <value>Kürzel</value>
     </data>
@@ -29,8 +26,5 @@
     </data>
     <data name="Name.Plural" xml:space="preserve">
         <value>Mengeneinheiten</value>
-    </data>
-    <data name="Field.IsDefault" xml:space="preserve">
-        <value>Standardwert</value>
     </data>
 </root>

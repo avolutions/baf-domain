@@ -69,15 +69,6 @@ namespace Avolutions.Baf.Domain.AcademicTitles.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bezeichnung.
-        /// </summary>
-        internal static string Field_Value {
-            get {
-                return ResourceManager.GetString("Field.Value", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Akademische Titel.
         /// </summary>
         internal static string Name_Plural {

@@ -60,29 +60,11 @@ namespace Avolutions.Baf.Domain.Salutations.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Standardwert.
-        /// </summary>
-        internal static string Field_IsDefault {
-            get {
-                return ResourceManager.GetString("Field.IsDefault", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Briefanrede.
         /// </summary>
         internal static string Field_LetterSalutation {
             get {
                 return ResourceManager.GetString("Field.LetterSalutation", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Bezeichnung.
-        /// </summary>
-        internal static string Field_Value {
-            get {
-                return ResourceManager.GetString("Field.Value", resourceCulture);
             }
         }
         
