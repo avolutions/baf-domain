@@ -1,5 +1,4 @@
-﻿using Avolutions.Baf.Core.Persistence;
-using Avolutions.Baf.Domain.Addresses.Models;
+﻿using Avolutions.Baf.Domain.Addresses.Models;
 using Avolutions.Baf.Domain.Addresses.Resources;
 using FluentValidation;
 using Microsoft.Extensions.Localization;
@@ -8,7 +7,7 @@ namespace Avolutions.Baf.Domain.Addresses.Validators;
 
 public class AddressValidator : AbstractValidator<Address>
 {
-    public AddressValidator(BafDbContext dbContext, IStringLocalizer<AddressResources> localizer)
+    public AddressValidator(IStringLocalizer<AddressResources> localizer)
     {
         var latLabel = localizer["Field.Latitude"];
         var lonLabel = localizer["Field.Longitude"];
