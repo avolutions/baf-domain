@@ -1,17 +1,13 @@
-﻿using Avolutions.Baf.Domain.Calendar.Models;
-using Avolutions.Baf.Domain.Calendar.Resources;
-using FluentValidation;
+﻿using Avolutions.Baf.Core.Lookups.Resources;
+using Avolutions.Baf.Core.Lookups.Validators;
+using Avolutions.Baf.Domain.Calendar.Models;
 using Microsoft.Extensions.Localization;
 
 namespace Avolutions.Baf.Domain.Calendar.Validators;
 
-public class CalendarEventTypeTranslationValidator : AbstractValidator<CalendarEventTypeTranslation>
+public class CalendarEventTypeTranslationValidator : LookupTranslationValidator<CalendarEventTypeTranslation>
 {
-    public CalendarEventTypeTranslationValidator(IStringLocalizer<CalendarEventTypeResources> localizer)
+    public CalendarEventTypeTranslationValidator(IStringLocalizer<LookupResources> localizer) : base(localizer)
     {
-        // TODO: to base validator
-        RuleFor(x => x.Value)
-            .NotEmpty()
-            .WithName(localizer["Field.Value"]);
     }
 }

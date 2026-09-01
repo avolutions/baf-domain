@@ -12,9 +12,10 @@ public class CalendarModule : IFeatureModule
 {
     public void Register(IServiceCollection services)
     {
-        services.AddLookup<CalendarEventType>();
         services.AddScoped<CalendarEventService>();
         services.AddScoped<ICalendarEventService, CalendarEventService>();
         services.AddScoped<IEntityService<CalendarEvent>, CalendarEventService>();
+        
+        services.AddLookup<CalendarEventType>();
     }
 }

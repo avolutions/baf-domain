@@ -15,9 +15,9 @@ public class HasCommunicationConfiguration : IModelConfiguration
             var builder = modelBuilder.Entity(entityType.ClrType);
           
             builder.HasOne(typeof(Communication), nameof(IHasCommunication.Communication))
-                .WithMany()
-                .HasForeignKey(nameof(IHasCommunication.CommunicationId))
-                .OnDelete(DeleteBehavior.Cascade);
+                .WithOne()
+                .HasForeignKey(entityType.ClrType, nameof(IHasCommunication.CommunicationId))
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

@@ -1,17 +1,14 @@
-﻿using Avolutions.Baf.Domain.AcademicTitles.Models;
-using Avolutions.Baf.Domain.AcademicTitles.Resources;
-using FluentValidation;
+﻿using Avolutions.Baf.Core.Lookups.Resources;
+using Avolutions.Baf.Core.Lookups.Validators;
+using Avolutions.Baf.Domain.AcademicTitles.Models;
 using Microsoft.Extensions.Localization;
 
 namespace Avolutions.Baf.Domain.AcademicTitles.Validators;
 
-public class AcademicTitleTranslationValidator : AbstractValidator<AcademicTitleTranslation>
+public class AcademicTitleTranslationValidator
+    : LookupTranslationValidator<AcademicTitleTranslation>
 {
-    public AcademicTitleTranslationValidator(IStringLocalizer<AcademicTitleResources> localizer)
+    public AcademicTitleTranslationValidator(IStringLocalizer<LookupResources> localizer) : base(localizer)
     {
-        // TODO: to base validator
-        RuleFor(x => x.Value)
-            .NotEmpty()
-            .WithName(localizer["Field.Value"]);
     }
 }

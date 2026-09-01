@@ -69,24 +69,6 @@ namespace Avolutions.Baf.Domain.QuantityUnits.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Standardwert.
-        /// </summary>
-        internal static string Field_IsDefault {
-            get {
-                return ResourceManager.GetString("Field.IsDefault", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Bezeichnung.
-        /// </summary>
-        internal static string Field_Value {
-            get {
-                return ResourceManager.GetString("Field.Value", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Mengeneinheiten.
         /// </summary>
         internal static string Name_Plural {

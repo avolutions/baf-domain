@@ -21,17 +21,11 @@
     <data name="Field.Color" xml:space="preserve">
         <value>Farbe</value>
     </data>
-    <data name="Field.IsDefault" xml:space="preserve">
-        <value>Standardwert</value>
-    </data>
     <data name="Field.IsSystem" xml:space="preserve">
         <value>Systemvorgabe</value>
     </data>
     <data name="Field.IsSystem.Description" xml:space="preserve">
         <value>Systemvorgabe - kann nicht gelöscht werden.</value>
-    </data>
-    <data name="Field.Value" xml:space="preserve">
-        <value>Bezeichnung</value>
     </data>
     <data name="Name.Plural" xml:space="preserve">
         <value>Terminarten</value>
