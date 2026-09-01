@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Avolutions.Baf.Domain.Calendar.Services;
 
-public class CalendarEventService : BaseEntityService<CalendarEvent>, ICalendarEventService
+public class CalendarEventService : EntityService<CalendarEvent>, ICalendarEventService
 {
     public CalendarEventService(IDbContextFactory<BafDbContext> contextFactory) : base(contextFactory)
     {
